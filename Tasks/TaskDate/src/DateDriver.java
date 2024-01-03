@@ -24,7 +24,7 @@ public class DateDriver {
                 (month < 1 || month > 12) ||
                 (year < 1000 || year > 9999)) {
             d3 = new Date(1, 1, 2023);
-            System.out.println("Wrong date has been entered. Date has been reseted to 01/01/2023");
+            System.out.println("Wrong date has been entered. Date has been reset to 01/01/2023");
         } else {
             d3 = new Date(day, month, year);
         }
